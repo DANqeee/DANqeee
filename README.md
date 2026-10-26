@@ -1,6 +1,8 @@
-<p align="center">
-  <img src="header.svg" alt="Даниил — frontend, проекты и поиск стажировки" width="100%" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DANqeee/DANqeee/gitascii/profiles/default/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DANqeee/DANqeee/gitascii/profiles/default/light.svg">
+  <img alt="GitAscii — Daniil, frontend и инструменты" src="https://raw.githubusercontent.com/DANqeee/DANqeee/gitascii/profiles/default/dark.svg" width="100%">
+</picture>
 
 <p align="center">
   <a href="#проекты">Проекты</a> ·
