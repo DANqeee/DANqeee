@@ -1,0 +1,20 @@
+name: Update GitAscii
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: gitascii-publication
+  cancel-in-progress: true
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Generate public profile SVGs
+        uses: Igorcbraz/GitAscii/action@456d4cfaf6ee8a04724c0d17cf17206360f51e7e
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          pro_telemetry: "false"
