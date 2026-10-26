@@ -40,4 +40,3 @@
   <img src="https://img.shields.io/badge/Discord-nezik__01-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord: nezik_01" />
 </p>
 
-Discord: **`nezik_01`** · [VK](https://vk.com/levi23321)
